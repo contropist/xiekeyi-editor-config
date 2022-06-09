@@ -187,9 +187,8 @@ export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/home/keyixie/cmake/cmake-3.21.3-linux-x86_64/bin:$PATH"
 
 
-export PYENV_HOME=/home/keyixie/.pyenv
-export PATH=/home/keyixie/.ft:/root/.ft:/usr/local/git/bin:$PYENV_HOME/bin:$PATH
-eval "$(pyenv init -)"
+#export PYENV_HOME=/home/keyixie/.pyenv
+#eval "$(pyenv init -)"
 
 
 #export N_PREFIX=/usr/local #node实际安装位置
@@ -202,7 +201,7 @@ eval "$(pyenv init -)"
 #[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-source $HOME/.cargo/env
+#source $HOME/.cargo/env
 
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 eval $(thefuck --alias)
